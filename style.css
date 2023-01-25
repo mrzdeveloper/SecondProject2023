@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+
+    text-decoration: none;
+}
+
+body {
+    font-size: 1em;
+    margin: 0;
+}
+
+.navbar {
+    padding: 30px 45px;
+    height: 250px;
+    background-color: rgb(39, 39, 39);
+    color: rgb(224, 193, 16);
+}
+
+.navbar .navline {
+    height: 0.2px;
+    border-width: 0;
+    color: gray;
+    background-color: rgb(211, 214, 36)
+}
+
+.topSection {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(39, 39, 39);
+}
+
+
+.topSection .leftTop {}
+
+.topSection .rightTop {}
+
+
+.bottomSection {}
+
+.bottomSection .bottomRight {}
+
+.bottomSection .bottomCenter {}
+
+.bottomSection .bottomLeft {}
