@@ -1,17 +1,3 @@
-* {
-    box-sizing: border-box;
-}
-
-a {
-
-    text-decoration: none;
-}
-
-body {
-    font-size: 1em;
-    margin: 0;
-}
-
 .navbar {
     padding: 30px 45px;
     height: 250px;
@@ -26,22 +12,102 @@ body {
     background-color: rgb(211, 214, 36)
 }
 
-.topSection {
+.navbar .topSection {
     display: flex;
     justify-content: space-between;
     background-color: rgb(39, 39, 39);
 }
 
+.navbar .topSection .leftTop {}
 
-.topSection .leftTop {}
+.navbar .topSection .leftTop i {
+    padding: 2px;
+    font-size: 1em;
+}
 
-.topSection .rightTop {}
+.navbar .topSection .rightTop {}
+
+.navbar .topSection .rightTop i {
+    padding: 2px;
+    margin: 0px 2px;
+}
+
+.navbar .topSection .rightTop span {
+    font-size: 1em;
+}
+
+.navbar .bottomSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .bottomSection .bottomLeft {}
+
+.navbar .bottomSection .bottomLeft i {
+    font-size: 3em;
 
 
-.bottomSection {}
+}
 
-.bottomSection .bottomRight {}
+.navbar .bottomSection .bottomLeft span {
+    font-size: 1.5em;
+    top: 0px;
+}
 
-.bottomSection .bottomCenter {}
+.navbar .bottomSection .bottomCenter {
+    margin-top: 10px;
+}
 
-.bottomSection .bottomLeft {}
+.navbar .bottomSection .bottomCenter a {
+    margin: 5px 20px;
+    color: rgb(224, 193, 16);
+    font-size: 1.2em;
+}
+
+.navbar .bottomSection .bottomRight {}
+
+.navbar .bottomSection .bottomRight .btn {
+    height: 35px;
+    width: 130px;
+    background-color: rgb(224, 193, 16);
+    border-radius: 15px;
+    padding-bottom: 40px;
+
+}
+
+.navbar .bottomSection .bottomRight .btn a {
+    font-size: 2em;
+    color: black;
+}
+
+.navbar .bottomSection .bottomRight .btn span {
+    font-size: 1.1em;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+.titel-head {
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+/* end .......................................End...header */
+
+/* start main */
+.titel-main {
+    margin: 50px 300px;
+ 
+}
+
+.titel-main h1 {
+    text-align: center;
+}
+
+.titel-main ms2 {
+    font-size: 1.8em;
+    text-align: center;
+}

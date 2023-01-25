@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
+a {
+
+    text-decoration: none;
+}
+
+body {
+    font-size: 16px;
+    margin: 0;
+}
