@@ -96,11 +96,13 @@
 }
 
 /* end .......................................End...header */
-
+.col-card{
+    margin: 50px 100px;
+}
 /* start main */
 .titel-main {
-    margin: 50px 300px;
- 
+  
+
 }
 
 .titel-main h1 {
@@ -110,4 +112,108 @@
 .titel-main ms2 {
     font-size: 1.8em;
     text-align: center;
+}
+
+
+.card1 {
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    width: 250px;
+    height: 350px;
+    background-color: black;
+    color: white;
+    position: relative;
+}
+
+.card1 .btn {
+    position: absolute;
+    width: 60px;
+    height: 40px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    left: 0px;
+    background-color: rgb(224, 193, 16);
+
+}
+
+.card-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-info .icons {
+    font-size: 4em;
+    margin-top: 20px;
+}
+
+.card-info .title1 {
+    font-size: 1.8em;
+}
+
+.card-info h1 {
+    font-size: 3em;
+    color: white;
+    margin-top: 5px;
+}
+
+.card-info .title2 {
+    margin-top: 5px;
+    font-size: 1em;
+}
+
+.card1 .x {
+    border: 2px solid yellow;
+}
+
+.endtitle {
+    border: 1px solid white;
+}
+
+.endtitle .price-titlr {
+    margin-left: 30px;
+}
+
+.x {
+    position: relative;
+    bottom: 2px;
+    left: 0px;
+    z-index: 10;
+    background-color: white;
+    color: black;
+}
+/* ..........................................pack */
+
+.pack{
+    background-color: black;
+    height: 300px;
+    border-radius: 15px;
+    padding: 10px;
+    color: darkgoldenrod;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pack .title{
+    text-align: center;
+
+}
+.pack .title h1{
+    margin-top: 20px;
+    display: block;
+    font-size: 3em;
+    
+}
+
+.pack .title i{
+    font-size: 1.5em;
+}
+
+.pack .title . span{}
+.pack-btn{
+    color: black;
+    border-radius: 15px;
 }
