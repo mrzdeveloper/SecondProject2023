@@ -23,9 +23,12 @@
 .navbar .topSection .leftTop i {
     padding: 2px;
     font-size: 1em;
+    cursor: pointer;
 }
 
-.navbar .topSection .rightTop {}
+.navbar .topSection .rightTop {
+    cursor: pointer;
+}
 
 .navbar .topSection .rightTop i {
     padding: 2px;
@@ -333,12 +336,13 @@
 .box label {
     display: block;
     margin-bottom: 5px;
-    padding: 2px;
+    font-size: 1.2em;
+    padding: 4px 8px;
 }
 
 .box input {
 
-
+    padding: 3px 0;
     width: 400px;
     height: 30px;
     border-radius: 5px;
@@ -376,6 +380,7 @@
     align-items: center;
     margin-top: 50px;
     padding: 25px 100px;
+    margin-top: 150px;
 
 }
 
@@ -384,7 +389,7 @@
 }
 
 .sec1 a {
-    color: gold;
+    color: darkgoldenrod;
     margin-top: 5px;
     display: flex;
     justify-content: first baseline;
@@ -393,21 +398,88 @@
 
 .sec1 h1 {
     font-size: 1em;
+    text-align: center;
+    margin-top: 50px;
 }
 
-.sec1 i {}
+.sec1 i {
+    margin-left: 5px;
+    padding: 5px;
+    color: darkgoldenrod;
+}
 
-.sec1 span {
+.sec1 h6 {
     text-align: center;
     font-size: .8em;
+    width: 150px;
+    padding: 0px 20px;
+}
+
+
+.fot-section {
+    position: relative;
+    margin-top: 50px;
 }
 
 .footerbanner {
-    padding: 20px 40px;
+    position: relative;
+    width: 85%;
+    padding-right:10px ;
+    top: -80px;
+    position: absolute;
+    height: 100px;
+    margin: 20px 100px;
     border-radius: 10px;
     background-color: darkgoldenrod;
-    width: 1000px;
+
+}
+
+.footerbanner .part {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerbanner .part .icon {
+    padding-left: 20px;
+    margin-top: 10px;
+    font-size: 4em;
+}
+
+.footerbanner .part .title {
+position: absolute;
+left: 100px;
+top: 5px;
+display: flex;
+flex-direction: column;
+
+}
+
+.footerbanner .btn {
+    padding: 0px 2px 0px 12px;
+    width: 450px;
     height: 50px;
-    position: absolute;
-    top: -30px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerbanner .btn button {
+    color: goldenrod;
+    background-color: black;
+    border-radius: 5px;
+    font-size: 1.2em;
+    height: 90%;
+    width: 40%;
+    cursor: pointer;
+    /* padding: 2px  8px; */
+}
+
+.footerbanner .btn .inputbtn {
+    border: none;
+    height: 95%;
+    color: rgb(192, 216, 216);
 }
