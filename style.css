@@ -121,7 +121,8 @@
 /* .......................start card */
 .cardpostal {
     display: flex;
-
+    justify-content: space-between;
+    align-items: center;
 }
 
 .card1 {
@@ -137,12 +138,15 @@
 }
 
 .card1 .btn {
+    font-weight: bold;
+    font-size: 1.5em;
     position: absolute;
     width: 60px;
     height: 40px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    left: 0px;
+    left: -1px;
+    border: none;
     background-color: rgb(224, 193, 16);
 
 }
@@ -157,43 +161,82 @@
 .card-info .icons {
     font-size: 4em;
     margin-top: 20px;
+    color: darkgoldenrod;
 }
 
 .card-info .title1 {
     font-size: 1.8em;
+    color: darkgoldenrod;
 }
 
 .card-info h1 {
     font-size: 3em;
     color: white;
-    margin-top: 5px;
+    margin-top: 35px;
+    text-align: center;
+}
+
+.card-info sub {
+    font-size: .2em;
+    color: darkgoldenrod;
 }
 
 .card-info .title2 {
     margin-top: 5px;
     font-size: 1em;
+    color: darkgoldenrod;
 }
 
-.card1 .x {
-    border: 2px solid yellow;
-}
 
 .endtitle {
-    border: 1px solid white;
+    font-size: .8em;
+    font-weight: bold;
+    height: 60px;
+    margin-top: 50px;
+    border: 1px solid rgb(255, 187, 0);
+    border-radius: 5px;
+    background-color: black;
 }
 
-.endtitle .price-titlr {
-    margin-left: 30px;
+.endtitle .title3 {
+    color: rgb(216, 214, 214);
+    padding-left: 20px;
 }
 
-.x {
-    position: relative;
-    bottom: 2px;
-    left: 0px;
-    z-index: 10;
-    background-color: white;
+.endtitle .price-title {
+    color: darkgoldenrod;
+    margin-left: 90px;
+    padding-right: 20px;
+}
+
+.buy-btn {
+    font-weight: bold;
+    background-color: goldenrod;
     color: black;
+    border-radius: 10px;
+    width: 100px;
+    height: 35px;
+    font-size: 1em;
+    margin-top: 5px;
+    cursor: pointer;
+    border: none;
+    position: absolute;
+    bottom: -15px;
+    left: 100px;
 }
+
+.buy-btn:hover {
+    background-color: blueviolet;
+}
+
+
+
+
+
+
+
+
+
 
 /* ..........................................pack */
 .pack {
@@ -347,22 +390,22 @@
     justify-content: first baseline;
     align-items: center;
 }
-.sec1 h1{
+
+.sec1 h1 {
     font-size: 1em;
 }
-            
-.sec1 i{
 
-}
-.sec1 span{
+.sec1 i {}
+
+.sec1 span {
     text-align: center;
     font-size: .8em;
 }
 
-.footerbanner{
-    padding: 20px 40px ;
+.footerbanner {
+    padding: 20px 40px;
     border-radius: 10px;
-    background-color:darkgoldenrod;
+    background-color: darkgoldenrod;
     width: 1000px;
     height: 50px;
     position: absolute;
