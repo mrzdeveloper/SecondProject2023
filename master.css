@@ -1,4 +1,10 @@
+@font-face {
+    font-family: english;
+    src: url(InterRegular.otf);
+}
+
 * {
+    font-family: english;
     box-sizing: border-box;
     /* border: 1px solid red; */
 }
